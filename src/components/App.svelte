@@ -3,7 +3,7 @@
   import * as d3 from "d3";
 
   let data = [];
-
+  // test
   onMount(async () => {
     const res = await fetch('IU_US.csv');
     const text = await res.text();
