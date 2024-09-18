@@ -45,7 +45,7 @@
       d['month'] = eventDate.getMonth() + 1;
     });
 
-    // Sort the artist names alphabetically
+    // Sort the artist names alphabetically 
     sortedArtists = Array.from(new Set(combinedData.map(d => d.Headliner)))
       .sort((a, b) => a.localeCompare(b));
 
